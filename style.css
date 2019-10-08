@@ -1,0 +1,102 @@
+    
+.box{
+    background-color: #4aaaa5;
+    position: absolute;
+    margin-top: 34px;
+    left: 274px;
+    top: 8px; 
+    height: 50px;
+    width: 175px;
+    padding-bottom: 45px;       
+
+}
+
+body{
+    background-image: url("./assets/images/grid.png");
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: #777777
+}
+
+#bio-image{
+    height: 100px;
+    width: 100px;
+    margin: 5 px;
+    float: left;
+}
+
+
+
+#wrapper{
+    margin:0 auto;
+    border: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 5px;
+}
+
+header h1{
+    display: inline-block;
+}
+
+header{
+    position: fixed;
+    Background-color: #ffffff;
+    margin-top: 25px;
+    
+}
+
+
+nav{
+    display: inline-block;
+    /* float: right; */
+}
+
+nav ul{
+    /* margin-right: 235px; */
+    /* margin-top: 120px; */
+    list-style: none;
+}
+
+nav li{
+display: inline-block;
+}
+
+
+#relative {
+    overflow-wrap: break-word;
+    position: relative;
+    border: solid;
+    /*color in assignment #dddddd*/
+    border: blueviolet; 
+    background: #ffffff;
+    height: 310px;
+    width: 550px;
+    padding: 0;
+    margin: 100px 200px -110px 275px;
+}
+
+.footer{
+    position: absolute;
+    background-color: #666666;
+    bottom: 0px;
+    width: 100%;
+    height: 5px;
+}
+
+.box2{
+    background: white
+
+}
+
+#box2{
+    position: relative;
+    top:50%;
+    left:75%;
+}
+
+#box3{
+    position:relative;
+    bottom:
+
+}
