@@ -20,6 +20,7 @@
     margin-top:5;
     background-color: #4aaaa5;
     padding: 34px;
+    margin-left: 145px;
     /* height: 70px; */
     /* position: absolute;
     margin-top: 34px;
@@ -35,6 +36,7 @@
     float: left ;
     background-color: #4aaaa5;
     padding: 34px;
+    margin-left: 330px;
     /* position: absolute;
     margin-top: 34px;
     top: 8px; 
@@ -49,15 +51,16 @@
     padding: 34px;
     /* position: absolute;
     margin-top: 34px;
-    top: 8px; 
+    top: 8px;  
     height: 50px;
     width: 175px;
     padding-bottom: 45px;        */
-    left: 274px}
+    margin-left: 145px;}
 
 nav {
     float: right;
     margin-top: 60px;
+    margin-right:200px;
 }
 .container {
     width: 100%;
@@ -157,6 +160,36 @@ footer{
     bottom: 5px;
 }
 
+#overtop{
+    /* position: relative;
+    top: 132px; */
+    z-index: 1;
+    height: 18px;
+    width:150px;
+    background-color: #4aaaa5;}
+
+
+#overtop3{
+    /* position: relative;
+    left: 0px;
+    top: 140;     */
+    z-index: 1;
+    height: 18px;
+    max-width:150px;
+    background-color: #4aaaa5;
+    }
+         
+#overtop4{
+    /* position: relative;
+    top: 130px;
+    left: 154px; */
+    z-index: 1;
+    height: 18px;
+    width:150px;
+    background-color:#4aaaa5;
+}
+
+
 #one{
     height:150px;
     width:150px;
@@ -168,10 +201,21 @@ footer{
     width: 425px;
 }
 
+.overtop{
+    /* position: relative;
+    left: 150px;
+    top:120px; */
+    z-index: 1;
+    height: 18px;
+    width:150px;
+    background-color: #4aaaa5;
+    }
 
 #two{
+    float:left;
     height:150x;
     width:150px;
+    
 }
 
 #three{
@@ -183,25 +227,40 @@ footer{
     height:150px;
     width:150px;
 }
+
+#overtop5{
+    /* position: relative;
+    left: 0px;
+    bottom: 10px; */
+    z-index: 1;
+    height: 18px;
+    width:150px;
+    background-color: #4aaaa5;
+}
 #five{
     height:150px;
     width:150px;
 }
 
-#row1{
-    position: relative;
-    left: 300px;
-}
 
-#row2{
-    position: relative;
-    left: 300px;
-
-}#row3{
-    position: relative;
-    left: 300px;
-}
 
 #text{
     font-size: 20px;
 }
+
+.in{
+    display: inline-block;
+    position: relative;
+    z-index:1;
+}
+
+.in div{
+    position: absolute;
+    right: 0;
+    bottom:5px;
+    z-index: 1;
+    /* left:0; */
+
+
+}
+
