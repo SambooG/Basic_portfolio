@@ -1,23 +1,61 @@
- .header{
-    position: fixed;
-    top: 0;
-   width: 100%;
-   height:70px;
-   
+
+
+body{
+    font-family:Helvetica Neue, Helvetica, sans-serif;
+    background:blue;
 }
 
-
-
-nav {
-    float: right;
-    margin-top: 60px;
-    margin-right:200px;
+.main-nav{
+  text-align:center;
+  margin-top:9em;
 }
 
+.main-nav ul{
+  display:inline-block;
+  margin:0;
+  padding:0;
+  list-style:none;
+  transform:skew(25deg);
+}
 
-html{
+.main-nav ul li{
+  background:#fff;
+  float:left;
+  border-right:1px solid #eee;
+  box-shadow:0 1px 1px rgba(0,0,0,0.1);
+  text-transform:uppercase;
+  color:#555;
+  font-weight:bolder;
+  transition:all 0.3s linear;
+}
+  
+  .main-nav:first-child{
+    border-radius:12px 2 2 12px;
+  }
+  
+  .main-nav:last-child{
+    border-right:none;
+    border-radius:0 12px 12px 0;
+    
+  }
+  
+  .main-nav:hover{
+    background:#eee;
+    color:blue
+  }
+  
+  a{
+    display:block;
+    padding:1em 2em;
+    color:inherit;
+    text-decoration:none;
+    transform:skew(25deg);
+  }
+
+
+/* html{
     background-image: url("./Free-Halftone-Watercolor-Textures-Backgrounds.jpg");
-    /* background-size: 100%; */
+    
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -25,15 +63,15 @@ html{
     color: rgb(82, 77, 77);
     font-weight: bolder;
  
-    /* padding-top:100px; */
+   
 
 
-}
+ }  */
 
 #bio-image{
     height: 100px;
     width: 100px;
-    margin: 5 px;
+    margin: 5px;
     float: left;
 }
 
@@ -42,13 +80,13 @@ html{
 
 
  
-
+/* 
 nav a{
 display: inline-block;
 font-display: #222222;
 text-decoration: none;
 
-}
+} */
 
   
 
@@ -141,10 +179,6 @@ text-decoration: none;
 }
 
 
-
-#text{
-    font-size: 20px;
-}
 
 .in{
     display: inline-block;
