@@ -1,6 +1,6 @@
 .images{
-    height:250px;
-    width: 250px;
+    height:300px;
+    width: 300px;
     padding: 5px;
 }
 
@@ -63,11 +63,22 @@ text-decoration: none;
 
 @media only screen and (min-width:768px){
 .container .about-block{
+    display:flex;
     flex-direction: row;
     margin:auto;
-    align-content: center;
 }
-.about-block-text{
-    align-items: baseline;
+.about-block-text {
+    margin: 20px;
+    display:flex;
+    justify-content:space-around;
 }
+.text{
+    width: 200px;
+}
+
+.project-block-text{
+    display:flex;
+
+}
+@media only screen and (max-width:1400px){}
 }
