@@ -1,0 +1,46 @@
+.images{
+    height:250px;
+    width: 250px;
+}
+
+.bio-image{
+    height:300px;
+    border-radius: 40px;
+}
+
+.contact-info{
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.about-block{
+    text-align: center;
+}
+
+.project-block{
+    flex-direction: row;
+    text-align: center;
+}
+
+.project-block-text{
+    text-align: center;
+    margin:5px;
+    padding: 5px;
+    
+}
+
+a{
+    cursor:pointer;
+    text-decoration: none;
+}
