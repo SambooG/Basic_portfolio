@@ -70,15 +70,17 @@ text-decoration: none;
 .about-block-text {
     margin: 20px;
     display:flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
 }
-.text{
+.link-text{
     width: 200px;
 }
 
 .project-block-text{
     display:flex;
+    justify-content: space-evenly;
 
 }
+
 @media only screen and (max-width:1400px){}
 }
