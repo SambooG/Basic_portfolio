@@ -7,8 +7,8 @@ body{
 }
 
 .images{
-    height:300px;
-    width: 310px;
+    height:250px;
+    width: 250px;
     padding: 5px 7px 5px 3px;
    
 }
@@ -82,10 +82,11 @@ a{
 
 
 /* mobile */
-@media only screen and (min-width:300px){
+
 .container{
-    flex-direction : column}
+    flex-direction : column;
 }
+
 /*full site*/
 @media only screen and (min-width:768px){
 .container .about-block{
@@ -131,6 +132,12 @@ h1{
 
 h2{
     font-size: 30px;
+}
+
+.images{
+    height:310px;
+    width:350px;
+    padding: 5px 7px 5px 3px;
 }
 @media only screen and (max-width:1400px){}
 }
