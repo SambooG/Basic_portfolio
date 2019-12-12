@@ -1,13 +1,22 @@
+body{
+    background-image: url("./pawel-czerwinski-Kg0LWJ26ZGo-unsplash.jpg");
+    font-family: 'Comfortaa', cursive;
+    background-position: center;
+    background-image: cover;
+    /* opacity: 0.3; */
+}
+
 .images{
     height:300px;
-    width: 300px;
-    padding: 5px;
+    width: 310px;
+    padding: 5px 7px 5px 3px;
+   
 }
 
 .bio-image{
     height:300px;
     border-radius: 40px;
-    padding: 5px;
+    padding-bottom: 5px;
 }
 
 .contact-info{
@@ -32,25 +41,42 @@ h3{
     text-align: center;
 }
 
+.first-heading .second-heading{
+    font-size: 20px;
+    margin: 20px;
+}
 .project-block{
     display:flex;
     text-align: center;
 }
 
-.project-block-text{
-    flex-direction: row;
+.project-block-text-1{
+    /* flex-direction: row; */
     text-align: center;
     margin:10px;
     padding: 10px;
 }
 
+.project-block-text{
+    /* flex-direction: row; */
+    text-align: center;
+    margin:10px;
+    padding: 10px;
+}
+
+.link-text{
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
 a{
-text-decoration: none;   
+    text-decoration:none ;
+    font-weight: bolder;  
 }
 
 /* a:hover{
     cursor:pointer;
-} */
+}  */
 
 
 
@@ -60,7 +86,7 @@ text-decoration: none;
 .container{
     flex-direction : column}
 }
-
+/*full site*/
 @media only screen and (min-width:768px){
 .container .about-block{
     display:flex;
@@ -71,16 +97,40 @@ text-decoration: none;
     margin: 20px;
     display:flex;
     justify-content:space-evenly;
+    font-size:18px;
 }
 .link-text{
     width: 200px;
+    font-size: 22px;
 }
 
 .project-block-text{
     display:flex;
     justify-content: space-evenly;
-
+    font-size:18px;
 }
 
+.project-block-text-1{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    font-size:18px;
+}
+
+.first-heading .second-heading{
+    margin: 30px;
+}
+
+a{
+    font-size: 20px;
+}
+
+h1{
+   font-size:40px;
+}
+
+h2{
+    font-size: 30px;
+}
 @media only screen and (max-width:1400px){}
 }
